@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "dappled_dens:animal_den",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 9869124,
+        "type": "minecraft:random_spread",
+        "spacing": 8,
+        "separation": 4
+    }
+}

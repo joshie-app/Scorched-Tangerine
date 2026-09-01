@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "minecraft:dappled_forest",
+    "terrain_adaptation": "none",
+    "step": "local_modifications",
+    "spawn_overrides": {
+        "monster": {
+            "bounding_box": "full",
+            "spawns": [
+                {
+                    "type": "husk",
+                    "maxCount": 5,
+                    "minCount": 2,
+                    "weight": 1
+                },
+                {
+                    "type": "parched",
+                    "maxCount": 5,
+                    "minCount": 2,
+                    "weight": 1
+                }
+            ]
+        }
+    },
+    "start_pool": "dappled_dens:large_ring",
+    "size": 4,
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "start_height": {
+        "type": "constant",
+        "value": {
+            "absolute": -4
+        }
+    },
+    "max_distance_from_center": 116,
+    "use_expansion_hack": false
+}

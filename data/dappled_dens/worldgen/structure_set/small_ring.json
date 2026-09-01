@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "dappled_dens:small_ring",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 73235,
+        "type": "minecraft:random_spread",
+        "spacing": 24,
+        "separation": 8
+    }
+}

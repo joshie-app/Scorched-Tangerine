@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "minecraft:dappled_forest",
+    "terrain_adaptation": "none",
+    "step": "surface_structures",
+    "spawn_overrides": {
+        "water_ambient": {
+            "bounding_box": "full",
+            "spawns": [
+                {
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "type": "frog",
+                    "weight": 1
+                }
+            ]
+        }
+    },
+    "start_pool": "dappled_dens:frog_statue",
+    "size": 4,
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "start_height": {
+        "type": "constant",
+        "value": {
+            "absolute": -2
+        }
+    },
+    "max_distance_from_center": 116,
+    "use_expansion_hack": false
+}
