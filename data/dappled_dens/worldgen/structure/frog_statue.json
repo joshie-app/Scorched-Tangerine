@@ -8,8 +8,7 @@
             "bounding_box": "full",
             "spawns": [
                 {
-                    "maxCount": 2,
-                    "minCount": 1,
+                    "count": 2,
                     "type": "frog",
                     "weight": 1
                 }

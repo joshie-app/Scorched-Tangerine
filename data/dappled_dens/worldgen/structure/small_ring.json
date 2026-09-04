@@ -9,14 +9,12 @@
             "spawns": [
                 {
                     "type": "husk",
-                    "maxCount": 5,
-                    "minCount": 2,
+                    "count": 4,
                     "weight": 1
                 },
                 {
                     "type": "parched",
-                    "maxCount": 5,
-                    "minCount": 2,
+                    "count": 4,
                     "weight": 1
                 }
             ]
